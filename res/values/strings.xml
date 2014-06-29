@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Editable Dictionary</string>
+    <string name="menuImport">Import Dictionary</string>
+    <string name="wordTextHint">Enter Acronym </string>
+    <string name="lookupButtonLabel">Lookup</string>
+    <string name="defineButtonLabel">Define</string>
+    <string name="definitionTextHint">Enter Definition </string>
+    
+    <string name="success_add_definition">New Definition Added Successfully !</string>
+    <string name="error_define_validate">Please Enter Acronym and Definition !</string>
+    <string name="error_add_definition">Failed to Add Definition !</string>
+    <string name="error_dcp_query_invalid_args">Invalid No of Arguments !</string>
+    <string name="error_dcp_insert">Failed To Insert Into Dictionary#URI: </string>
+    <string name="error_lookup">No Such Acronym Exists !</string>
+    
+    <string name="contentProviderAuthorities">com.symantec.android.contentprovider</string>
+    
+    <string name="DEFAULT_FILE_PATH">datafile.csv</string>
+    <string name="SEPARATOR">|</string>
+    <string name="filepath_separator_prompt">Please Enter Full File Path and Separator !</string>
+    <string name="buttonUpload">Upload File</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="uploadLabel">Please Enter Asset Name or Full Path of File </string>
+    <string name="error_import_file_path">File to Upload Does Not Exist !</string>
+    <string name="separator_hint">Enter Separator </string>
+    <string name="upload_dictionary_title">Upload Dictionary</string>
+    <string name="separator_label">Please Enter Separator</string>
+    <string name="success_upload">Successfully Processed Dictionary File !</string>
+    <string name="error_upload_invalid_argument">Dictionary File Upload Failed ! Please Correct Invalid Arguments !!</string>
+    <string name="error_upload_database_error">Dictionary Upload Failed ! Please Check File Data Format !!</string>
+    <string name="error_upload_other">Dictionary File Upload Failed ! Please Contact Customer Support !!</string>
+    <string name="upload_dialog_wait_message">Please Wait.! Depending on size of the file, this action might take several minutes !</string>
+    <string name="upload_dailog_title">Upload Dictionary ....!</string>
+    <string name="error_word">Please Enter Word !</string>
+    <string name="upload_insertions_message">No. Of Records Processed Successfully: %d</string>
+    <string name="upload_skips_message">No. Of Records Skipped: %d</string>
+    <string name="upload_summary_message">Total No. Of Records Processed: %d</string>
+    <string name="upload_time_taken">Upload Time Taken: %d Seconds</string>
+    <string name="error_max_length">Exceeded Allowed Maximum Length (Word= %1$d, Definition= %2$d)</string>
+    <string name="error_insert_content_null">Insertion Contents Can\'t Be Null !</string>
+
+</resources>

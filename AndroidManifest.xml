@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.symantec.android.dictionary"
+    android:versionCode="2"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+	
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.symantec.android.dictionary.DictionaryActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.symantec.android.dictionary.upload.UploadActivity"
+            android:label="@string/upload_dictionary_title">
+        </activity>
+        
+        <provider 
+            android:name="com.symantec.android.dictionary.contentprovider.DictionaryContentProvider"
+            android:authorities="@string/contentProviderAuthorities"
+            android:exported="true"
+            android:multiprocess="true"
+            android:readPermission="android.permission.READ_EXTERNAL_STORAGE" 
+            android:writePermission="android.permission.WRITE_EXTERNAL_STORAGE">
+        </provider>
+    </application>
+</manifest>
