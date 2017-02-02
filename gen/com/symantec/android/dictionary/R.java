@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.symantec.android.dictionary;
+package com.company.android.dictionary;
 
 public final class R {
     public static final class attr {
